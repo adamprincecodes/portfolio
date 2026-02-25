@@ -1,5 +1,7 @@
 ~
+
 # My Portfolio
 
+This a project created during my Software Development course at GOMYCODE.
 
-[A[A[A[A[1;5A[1;5A[C[C[[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[A# My Portfolio
+[Live demo here](https://portfolio-blush-theta-13.vercel.app/)
