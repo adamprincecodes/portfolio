@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
       <meta charset="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>MY PORTFOLIO</title></head>
     <body>
         <header>
-            <h1>ADAM PRINCE</h1>
+            <h1 class="special-heading">MY PORTFOLIO</h1>
             <!--navbar-->
             <nav>
-              <ul>
+              <ul class="navbar">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#work">Work</a></li>
@@ -19,11 +20,11 @@
             </nav>
         </header>
         <section id="home">
-            <h1>WELCOME TO MY PORTFOLIO</h1>
-            <p>Hi, I’m Adam Prince ,I am a student at gomycode Nairobi.</p>
+            <h2>WELCOME TO MY PORTFOLIO</h2>
+            <p class="center-text">Hi, I’m Adam Prince ,I am a student at gomycode Nairobi.</p>
         </section>
         <section id="about">
-            <h1>ABOUT ME</h1>
+            <h2>ABOUT ME</h2>
             <p>I am 19 years old. I am a passionate and dedicated individual with a strong interest in technology and innovation. 
                I have a background in computer science and a keen eye for detail, which has allowed me to excel in various projects and challenges. 
                I am always eager to learn new skills and take on exciting opportunities that allow me to grow both personally and professionally. 
@@ -31,12 +32,12 @@
                individuals in the tech community.</p>
         </section>
         <section id="work">
-            <h1>MY WORK</h1>
-            <p>I have no work experience at the moment.</p>
+            <h2>MY WORK</h2>
+            <p class="center-text">I have no work experience at the moment.</p>
         </section>
         <section id="resume">
-            <h1>MY RESUME</h1>
-            <table Border="1">
+            <h2>MY RESUME</h2>
+            <table class="center-table" Border="1">
               <tr>
                 <th>YEAR</th>
                 <th>INSTITUTION</th>
@@ -64,12 +65,30 @@
                 </tr>
             </table>
         </section>
+        <br>
+        <section id="image">
+          <!--image-->
+          <h2>MY IMAGE</h2>
+          <div style="text-align: center">
+            <img src="passport.jpg" width="200">
+          </div>
+        </section>
+
         <section id="contact">
-            <h1>CONTACT ME</h1>
-            <p>You can contact me at <b>0700000000</b></p>
+            <h2>CONTACT ME</h2>
+            <p class="center-text">You can contact me at <b>0700000000</b></p>
+            <form class="center-form">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name"><br>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email"><br>
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message"></textarea><br>
+              <input type="submit" value="Submit">
+        </section>
    
       <footer>
-        <p>&copy; 2026 Debate Club. All rights reserved.</p>
+        <p>&copy; My Portfolio 2026. All rights reserved.</p>
       </footer>
     </body>
 </html>
