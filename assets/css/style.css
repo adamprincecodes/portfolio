@@ -1,0 +1,60 @@
+.navbar li {
+  display: inline; /* Makes list items inline */
+  margin-right: 170px; /* Space between items */
+  margin-left: 30px;
+}
+.navbar a {
+  text-decoration: none; /* Removes underline from links */
+  color: black; /* Sets link color */
+  font-weight: bold; /* Makes link text bold */
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: green; /* Dark gray color for headings */
+  text-align: center; /* Centers the heading text */
+  text-decoration: underline; /* Underlines the heading text */
+}
+h2 {
+  color: turquoise; /* Dark gray color for subheadings */
+  text-align: center; /* Centers the subheading text */
+}
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  background-color: #f0f0f0; /* Light gray background color */
+}
+.center-text {
+  text-align: center; /* Centers the text */
+}
+#home {
+  background-color: #e0e0e0; /* Light gray background color for home section */
+}
+#about {
+  background-color: lightyellow; /* Slightly darker gray for about section */
+}
+#work {
+  background-color: lightpink; /* Slightly darker gray for work section */
+}
+#resume {
+  background-color: lightslategray; /* Slightly darker gray for resume section */
+  font-weight: bold; /* Makes text bold */
+}
+h1 + nav {
+  background-color: white;
+  font-weight: bold;
+}
+#contact {
+  background-color: rgb(60, 66, 60);
+  color: white; /* White text on black background */
+}
+form {
+  background-color: rgb(163, 71, 71); /* White background for the form */
+  padding: 20px; /* Padding around the form */
+  border-radius: 5px; /* Rounded corners for the form */
+  width: 50%; /* Set form width */
+  margin: auto; /* Center the form */
+}
